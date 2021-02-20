@@ -12,6 +12,30 @@ e45826  simil naranja
 e6d5b8  simil crema calido
 */
 
+
+/*          HEADER            */
+
+.color{
+    height: 50px;
+    background: #82FF93;
+    background: -webkit-linear-gradient(to right, #82FF93 0%, #19FFFF 100%);
+    background: -moz-linear-gradient(to right, #82FF93 0%, #19FFFF 100%);
+    background: linear-gradient(to right, #82FF93 0%, #19FFFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    padding: 4px;
+}
+.color:hover{
+    background: #19FFFF;
+    background: -webkit-linear-gradient(to right, #19FFFF 0%, #82FF93 100%);
+    background: -moz-linear-gradient(to right, #19FFFF 0%, #82FF93 100%);
+    background: linear-gradient(to right, #19FFFF 0%, #82FF93 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
 .header{
     background-color: #4a3933;
 }
@@ -26,7 +50,7 @@ e6d5b8  simil crema calido
     background-color: #4a3933;
 }
 
-.menu a{
+.derecha a{
     text-decoration: none;
     display: block;
     color: #e6d5b8;
@@ -34,45 +58,138 @@ e6d5b8  simil crema calido
     border: 2px solid #4a3933;
 }
 
-.menu a:hover{
+.derecha a:hover{
     border: 2px solid #4a3933;
     background: #e45826;
     color: #e6d5b8;
 }
 
-
 .derecha{
     float: right;
 }
+
+
+/*          MAIN            */
 
 .main{
     width: 100%;
 
 }
 .novedades{
-    height: 250px;
+    height: 450px;
     display: block;
-    background: #e45826;
+    background: #4a3933;
+    color: #e6d5b8;
+    padding: 25px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: -140px;
+    background-image: url(https://images.pexels.com/photos/298863/pexels-photo-298863.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+}
+.novedades h2{
+    text-align: center;
+    border: 2px solid #4a3933;
+    background-color: rgba(230,213,184,0.50);
+    color: #4a3933;
+    width: 200px;
+    margin: 10px auto;
+    padding: 20px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25), 4px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.novedades p{
+    text-align: center;
+    background-color: rgba(74,57,51,0.51);
+    width: 600px;
+    margin: 0 auto;
 }
 .collecion{
     display: inline-block;
     width: 49.7%;
-    height: 200px;
+    height: 270px;
     background: #e6d5b8;
-
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-image: url(https://images.pexels.com/photos/996329/pexels-photo-996329.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
 }
-.accesorios{
+.collecion h2{
+    text-align: center;
+    border: 2px solid #4a3933;
+    background-color: rgba(230,213,184,0.50);
+    width: 200px;
+    margin: 10px auto;
+    padding: 20px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25), 4px 4px 10px rgba(0, 0, 0, 0.25);
+}
+.collecion p{
+    text-align: center;
+    color: #e6d5b8;
+    background-color: rgba(74,57,51,0.51);
+    width: 400px;
+    margin: 0 auto;
+}
+
+.calzado{
     display: inline-block;
     width: 49.7%;
-    height: 200px;
+    height: 270px;
     background: #e6d5b8;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: -40px;
+    background-image: url(https://images.pexels.com/photos/292999/pexels-photo-292999.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+
+}
+
+.calzado h2{
+    text-align: center;
+    border: 2px solid #4a3933;
+    background-color: rgba(230,213,184,0.50);
+    width: 200px;
+    margin: 10px auto;
+    padding: 20px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25), 4px 4px 10px rgba(0, 0, 0, 0.25);
+
+}
+
+.calzado p{
+    text-align: center;
+    color: #e6d5b8;
+    background-color: rgba(74,57,51,0.51);
+    width: 400px;
+    margin: 0 auto;
 
 }
 
 .proximamente{
-    height: 250px;
+    height: 270px;
     display: block;
     background: #e45826;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: -40px;
+    background-image: url(https://images.pexels.com/photos/1082529/pexels-photo-1082529.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+}
+
+.proximamente h2{
+    text-align: center;
+    border: 2px solid #4a3933;
+    background-color: rgba(230,213,184,0.50);
+    width: 250px;
+    margin: 10px auto;
+    padding: 20px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25), 4px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.proximamente p{
+    text-align: center;
+    color: #e6d5b8;
+    background-color: rgba(74,57,51,0.51);
+    width: 700px;
+    margin: 0 auto;
 }
 
 .nosotros{
