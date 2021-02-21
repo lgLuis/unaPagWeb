@@ -96,6 +96,10 @@ e6d5b8  simil crema calido
     padding: 20px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25), 4px 4px 10px rgba(0, 0, 0, 0.25);
 }
+.novedades h2:hover{
+    border: 2px solid;
+    border-image: conic-gradient( aqua, blue, lightgreen, blue, aqua, lightgreen, aqua) 1;
+}
 
 .novedades p{
     text-align: center;
@@ -122,6 +126,11 @@ e6d5b8  simil crema calido
     padding: 20px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25), 4px 4px 10px rgba(0, 0, 0, 0.25);
 }
+.collecion h2:hover{
+    border: 2px solid;
+    border-image: conic-gradient( aqua, blue, lightgreen, blue, aqua, lightgreen, aqua) 1;
+}
+
 .collecion p{
     text-align: center;
     color: #e6d5b8;
@@ -154,6 +163,11 @@ e6d5b8  simil crema calido
 
 }
 
+.calzado h2:hover{
+    border: 2px solid;
+    border-image: conic-gradient( aqua, blue, lightgreen, blue, aqua, lightgreen, aqua) 1;
+}
+
 .calzado p{
     text-align: center;
     color: #e6d5b8;
@@ -176,7 +190,7 @@ e6d5b8  simil crema calido
 
 .proximamente h2{
     text-align: center;
-    border: 2px solid #4a3933;
+    border: 2px solid #4a3933 ;
     background-color: rgba(230,213,184,0.50);
     width: 250px;
     margin: 10px auto;
@@ -184,11 +198,16 @@ e6d5b8  simil crema calido
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25), 4px 4px 10px rgba(0, 0, 0, 0.25);
 }
 
+.proximamente h2:hover{
+    border: 2px solid;
+    border-image: conic-gradient( aqua, blue, lightgreen, blue, aqua, lightgreen, aqua) 1;
+
+}
 .proximamente p{
     text-align: center;
     color: #e6d5b8;
     background-color: rgba(74,57,51,0.51);
-    width: 700px;
+    width: 500px;
     margin: 0 auto;
 }
 
@@ -204,7 +223,6 @@ e6d5b8  simil crema calido
 }
 
 .colorDos{
-
     background: #82FF93;
     background: -webkit-linear-gradient(to right, #82FF93 0%, #19FFFF 100%);
     background: -moz-linear-gradient(to right, #82FF93 0%, #19FFFF 100%);
@@ -230,3 +248,5 @@ e6d5b8  simil crema calido
     padding: 20px;
     font-size: 12px;
 }
+
+
