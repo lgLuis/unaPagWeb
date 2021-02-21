@@ -198,7 +198,35 @@ e6d5b8  simil crema calido
 
 .footer{
     width: 100%;
-    height: 100px;
+    height: 140px;
     background-color: #4a3933;
+    color: #e6d5b8;
 }
 
+.colorDos{
+
+    background: #82FF93;
+    background: -webkit-linear-gradient(to right, #82FF93 0%, #19FFFF 100%);
+    background: -moz-linear-gradient(to right, #82FF93 0%, #19FFFF 100%);
+    background: linear-gradient(to right, #82FF93 0%, #19FFFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    padding: 4px;
+}
+.colorDos:hover{
+    background: #19FFFF;
+    background: -webkit-linear-gradient(to right, #19FFFF 0%, #82FF93 100%);
+    background: -moz-linear-gradient(to right, #19FFFF 0%, #82FF93 100%);
+    background: linear-gradient(to right, #19FFFF 0%, #82FF93 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.bloque{
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    font-size: 12px;
+}
